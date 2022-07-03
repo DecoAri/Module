@@ -32,7 +32,7 @@
 # bd: 百度搜索
 ^https:\/\/www\.google.com\/search\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 ^https:\/\/www\.google.com\/search\?client=\w+\&rls=\w+\&q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
-# ddg: DuckDuckGo 搜索
+# ddg: DuckDuckGo
 ^https:\/\/www\.google.com\/search\?q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
 ^https:\/\/www\.google.com\/search\?client=\w+\&rls=\w+\&q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
 
